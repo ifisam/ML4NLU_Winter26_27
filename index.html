@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+  <title>ML4NLU - Machine Learning for Natural Language Understanding</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand brand" href="index.html">ML4NLU Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#announcements">Announcements</a></li>
+        <li><a href="#logistics">Logistics</a></li>
+        <li><a href="#syllabus">Schedule</a></li>
+        <li><a href="#challenge">Challenge</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="header" style="text-align:center">
+  <h1>ML4NLU: Machine Learning for Natural Language Understanding</h1>
+  <h3>Winter 26/27 Semester</h3>
+  <div class="instructor-credit">
+    <img src="assets/achim-rettinger.jpg" alt="Portrait of Prof. Dr. Achim Rettinger" class="instructor-photo">
+    <span class="instructor-name">Prof. Dr. Achim Rettinger</span>
+    <span class="instructor-affiliation">Chair of Computational Linguistics &middot; Universit&auml;t Trier</span>
+  </div>
+  <div style="clear:both;"></div>
+</div>
+
+<div class="container sec" id="overview">
+  <h2>Overview</h2>
+  <p>ML4NLU examines how natural language can be understood by machines &mdash; starting from the
+  mathematical and machine-learning foundations, through neural classifiers, static and contextual
+  word representations, sequence models and transformers, pretraining and post-training, up to
+  prompting, tool-augmented and multi-lingual/multi-modal/multi-agent LLMs and the ethical questions
+  they raise. The course runs as a semi-flipped classroom: each week pairs an asynchronous lecture
+  video with an in-class discussion, a student seminar presentation, and a hands-on tutorial.</p>
+</div>
+
+<div class="container sec" id="announcements">
+  <h2>Announcements</h2>
+  <ul>
+      <li>Welcome to ML4NLU! Please check the syllabus below. The schedule and materials will be updated progressively.</li>
+  </ul>
+</div>
+
+<div class="sechighlight">
+  <div class="container sec" id="logistics">
+    <h2>Logistics & Grading</h2>
+    <ul>
+        <li><b>Lecture:</b> Every Thursday 10:15-11:45 N2 (Hybrid)</li>
+        <li><b>Tutorials:</b> Every Monday 10:15-11:45 N2</li>
+        <li><b>Seminars:</b> Thursdays 12:15-13:45 and Fridays 08:15-09:45</li>
+        <li><b>Grading:</b> 50% Written Report (Due end of Feb/March), 50% Written Exam. Optional Challenge Bonus available.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="container sec" id="syllabus" style="margin-top:-20px">
+  <br>
+  <h2>Syllabus & Schedule</h2>
+  <table class="table">
+    <colgroup>
+      <col style="width:15%">
+      <col style="width:25%">
+      <col style="width:15%">
+      <col style="width:25%">
+      <col style="width:20%">
+    </colgroup>
+    <thead>
+    <tr class="active">
+      <th>Week / Date</th>
+      <th>Topic</th>
+      <th>Lecture</th>
+      <th>Tutorial / Seminar</th>
+      <th>Materials & Content</th>
+    </tr>
+    </thead>
+    <tbody id="schedule-body">
+      <!-- Dynamically populated by JS -->
+    </tbody>
+  </table>
+</div>
+
+<div class="sechighlight">
+  <div class="container sec" id="challenge">
+    <h2>Challenge Bonus</h2>
+    <p>An optional challenge runs alongside the written report. Your challenge result adjusts your
+    written-report grade:</p>
+    <ul>
+      <li>Beat our baseline &rarr; <b>+1 grading step</b></li>
+      <li>Hand in the best-performing model &rarr; <b>+2 grading steps</b></li>
+    </ul>
+    <p>Participation is optional and does not replace the written report or exam.</p>
+  </div>
+</div>
+
+<div class="container sec" id="faq">
+  <h2>FAQ</h2>
+  <dl class="faq-list">
+    <dt>How is my final grade calculated?</dt>
+    <dd>50% written report (schriftliche Ausarbeitung), 50% written exam. The exam mixes
+    flipped-classroom-style questions with applied questions from the tutorial/exercise sheets.</dd>
+
+    <dt>When is the written report due?</dt>
+    <dd>Officially end of February; the hard deadline is end of March (end of semester) as listed in
+    PORTA. Missing the hard deadline counts as a failed attempt and requires re-examination next
+    semester.</dd>
+
+    <dt>Is attendance mandatory?</dt>
+    <dd>Lecture and tutorial attendance is voluntary (hybrid); seminar attendance is compulsory with
+    active participation.</dd>
+
+    <dt>What does a typical week look like?</dt>
+    <dd>Tue night &mdash; new lecture video + flipped-classroom questions posted. Thu lecture &mdash;
+    discussion (&le;30 min) + summary presentation (&le;60 min, streamed). Thu/Fri seminar &mdash;
+    student group presentations. Following Mon tutorial &mdash; exercises, Q&amp;A, hands-on practice.</dd>
+
+    <dt>Where do the lecture videos come from?</dt>
+    <dd>Curated primarily from Stanford's CS224U (NLU) and CS224N (NLP with Deep Learning) YouTube
+    playlists, plus Meta's LLaMA technical reports for later topics.</dd>
+
+    <dt>Who do I contact?</dt>
+    <dd>Technical issues with Porta &rarr; porta@uni-trier.de. Student records / login credentials
+    &rarr; admission@uni-trier.de. Course-specific questions go through StudIP messaging.</dd>
+
+    <dt>Do I need to register for exams myself?</dt>
+    <dd>Yes &mdash; you must sign up for both the written exam and the written report individually.</dd>
+  </dl>
+</div>
+
+<div class="sechighlight">
+  <div class="container sec" id="resources">
+    <h2>Resources & Readings</h2>
+    <ul id="resources-list" class="resources-list">
+        <!-- Dynamically populated by JS -->
+    </ul>
+  </div>
+</div>
+
+<div class="container sec">
+  <footer>
+      <p>&copy; 2027 ML4NLU.</p>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
