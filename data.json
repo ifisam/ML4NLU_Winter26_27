@@ -28,8 +28,6 @@
       "topic": "Logistics",
       "visible": true,
       "lecture": "16.10 (cancelled)",
-      "tutorial": "20.10: Setup Coding Environment & Python Tutorial",
-      "seminar": "16./17.10 (cancelled)",
       "materials": [
         {"type": "reference", "title": "Course Logistics", "file": "content/00-ML4NLU-Logistics.pdf"},
         {"type": "reference", "title": "Full Schedule (PDF)", "file": "content/00-ML4NLU-Schedule.pdf"}
@@ -42,8 +40,6 @@
       "topic": "01 - ML Basics",
       "visible": true,
       "lecture": "23.10",
-      "tutorial": "27.10: PyTorch Tutorial, HuggingFace Tutorial",
-      "seminar": "23/24.10 Logistics, Publication of Topics",
       "materials": [
         {"type": "exercise", "title": "Dot Product", "file": "content/01-ML4NLU-Dot-Product.xlsx"},
         {"type": "exercise", "title": "Matrix Multiplication", "file": "content/01-ML4NLU-Matrix-Multiplication.xlsx"}
@@ -62,8 +58,6 @@
       "topic": "02 - Learning and Evaluation",
       "visible": true,
       "lecture": "30.10",
-      "tutorial": "03.11: Intro to task, data set, feature extraction, Optimization",
-      "seminar": "30./31.10 Group Building and Assignment of Presentation Topics",
       "materials": [
         {"type": "reading", "title": "Challenges and Opportunities in NLP Benchmarking", "url": "https://www.ruder.io/nlp-benchmarking/"},
         {"type": "reading", "title": "Measuring Massive Multitask Language Understanding (MMLU)", "url": "https://arxiv.org/abs/2009.03300"},
@@ -78,8 +72,6 @@
       "topic": "-",
       "visible": false,
       "lecture": "06.11 (cancelled)",
-      "tutorial": "10.11: Announcement of Challenge",
-      "seminar": "06./07.11 (cancelled)",
       "materials": [],
       "content": []
     },
@@ -89,8 +81,6 @@
       "topic": "03 - Neural Classifiers",
       "visible": true,
       "lecture": "13.11",
-      "tutorial": "17.11: MLP Application and Testing",
-      "seminar": "13./14.11 ML4NLU-3a/ML4NLU-3b",
       "materials": [
         {"type": "reading", "title": "CS231n Notes on Neural Network Architectures", "url": "http://cs231n.github.io/neural-networks-1/"},
         {"type": "reading", "title": "CS231n Notes on Backpropagation", "url": "http://cs231n.github.io/optimization-2/"},
@@ -108,8 +98,6 @@
       "topic": "04 - Static Word Vectors (W2V)",
       "visible": true,
       "lecture": "20.11",
-      "tutorial": "24.11",
-      "seminar": "20./21.11 ML4NLU-4a/ML4NLU-4b",
       "materials": [
         {"type": "reading", "title": "Efficient Estimation of Word Representations in Vector Space (word2vec)", "url": "http://arxiv.org/pdf/1301.3781.pdf"},
         {"type": "reading", "title": "Distributed Representations of Words and Phrases and their Compositionality", "url": "http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf"},
@@ -127,8 +115,6 @@
       "topic": "05 - Sequence Modeling (RNNs)",
       "visible": true,
       "lecture": "27.11",
-      "tutorial": "01.12",
-      "seminar": "27./28.11 ML4NLU-5a/ML4NLU-5b",
       "materials": [
         {"type": "reading", "title": "Learning Long-Term Dependencies with Gradient Descent is Difficult", "url": "https://ieeexplore.ieee.org/document/279181"},
         {"type": "reading", "title": "On the Difficulty of Training Recurrent Neural Networks", "url": "https://arxiv.org/pdf/1211.5063.pdf"},
@@ -142,8 +128,6 @@
       "topic": "06 - Early Transformers (BERT)",
       "visible": true,
       "lecture": "04.12",
-      "tutorial": "08.12",
-      "seminar": "04./05.12 ML4NLU-6a/ML4NLU-6b",
       "materials": [
         {"type": "reading", "title": "Attention Is All You Need", "url": "https://arxiv.org/abs/1706.03762"},
         {"type": "reading", "title": "The Illustrated Transformer", "url": "https://jalammar.github.io/illustrated-transformer/"},
@@ -161,8 +145,6 @@
       "topic": "07 - GPT Architecture",
       "visible": true,
       "lecture": "11.12",
-      "tutorial": "15.12",
-      "seminar": "11./12.12 ML4NLU-7a/ML4NLU-7b",
       "materials": [
         {"type": "reading", "title": "The Llama 3 Herd of Models", "url": "https://arxiv.org/abs/2407.21783"}
       ],
@@ -174,8 +156,6 @@
       "topic": "08 - Data und Pretraining",
       "visible": true,
       "lecture": "18.12",
-      "tutorial": "05.01 (cancelled)",
-      "seminar": "18./19.12 ML4NLU-8a/ML4NLU-8b",
       "materials": [
         {"type": "reading", "title": "Contextual Word Representations: A Contextual Introduction", "url": "https://arxiv.org/abs/1902.06006.pdf"},
         {"type": "reading", "title": "Jurafsky and Martin Chapter 10 (Masked Language Models)", "url": "https://web.stanford.edu/~jurafsky/slp3/10.pdf"}
@@ -188,8 +168,6 @@
       "topic": "09 - Post Training",
       "visible": true,
       "lecture": "08.01",
-      "tutorial": "12.01: Publication of Test Exercise Sheet",
-      "seminar": "08./09.01 ML4NLU-9a/ML4NLU-9b",
       "materials": [
         {"type": "reading", "title": "Aligning Language Models to Follow Instructions", "url": "https://openai.com/research/instruction-following"},
         {"type": "reading", "title": "Scaling Instruction-Finetuned Language Models", "url": "https://arxiv.org/abs/2210.11416"},
@@ -205,8 +183,6 @@
       "topic": "10 - Prompt Engineering + Tool Augmented LLMs",
       "visible": true,
       "lecture": "15.01",
-      "tutorial": "19.01: Deadline Challenge",
-      "seminar": "15./16.01 ML4NLU-10a/ML4NLU-10b",
       "materials": [
         {"type": "reading", "title": "Language Models are Few-Shot Learners", "url": "https://arxiv.org/abs/2005.14165"},
         {"type": "reading", "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models", "url": "https://arxiv.org/abs/2201.11903"},
@@ -222,8 +198,6 @@
       "topic": "11 - Multiagent / Multilingual / Multimodal LLMs",
       "visible": true,
       "lecture": "22.01",
-      "tutorial": "26.01: Test Exercise Sheet",
-      "seminar": "22./23.01 ML4NLU-11a/ML4NLU-11b",
       "materials": [
         {"type": "reading", "title": "Jurafsky & Martin Chapter 2 (Tokenization)", "url": "https://web.stanford.edu/~jurafsky/slp3/2.pdf"},
         {"type": "reading", "title": "Neural Machine Translation of Rare Words with Subword Units", "url": "https://arxiv.org/pdf/1508.07909"},
@@ -239,8 +213,6 @@
       "topic": "-",
       "visible": false,
       "lecture": "29.01 (cancelled)",
-      "tutorial": "02.02: Presentation Challenge",
-      "seminar": "29./30.01 (cancelled)",
       "materials": [],
       "content": []
     },
@@ -250,8 +222,6 @@
       "topic": "12 - AI+Ethics+Safety",
       "visible": true,
       "lecture": "05.02: Written Exam Q&A, AI+Ethics+Safety",
-      "tutorial": "09.02",
-      "seminar": "05./06.02 ML4NLU-12a/ML4NLU-12b",
       "materials": [
         {"type": "reading", "title": "Because We Have LLMs, We Can and Should Pursue Agentic Interpretability", "url": "https://arxiv.org/abs/2506.12152"},
         {"type": "reading", "title": "We Can't Understand AI Using our Existing Vocabulary", "url": "https://arxiv.org/abs/2502.07586"},
@@ -265,8 +235,6 @@
       "topic": "Exam Prep",
       "visible": false,
       "lecture": "12.02 (cancelled)",
-      "tutorial": "16.02: Written Exam (10:00-12:00, HS3)",
-      "seminar": "12./13.02 Guidance on Term Paper Writing",
       "materials": [],
       "content": []
     }
