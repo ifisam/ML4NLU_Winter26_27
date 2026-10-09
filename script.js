@@ -9,8 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const MATERIAL_LABELS = {
-    slides: "Slides",
-    flipped: "Flipped",
     exercise: "Exercise",
     reference: "Reference",
     transcript: "Transcript"

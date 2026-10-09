@@ -178,8 +178,6 @@ a:hover {
   background-color: var(--gold-dark);
 }
 
-.material-chip--slides   { background-color: #8a7a1f; }
-.material-chip--flipped  { background-color: #b7a63f; }
 .material-chip--exercise { background-color: #6b7a4f; }
 .material-chip--reference{ background-color: #6f6f6f; }
 .material-chip--transcript{ background-color: #9c8a52; }

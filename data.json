@@ -45,8 +45,6 @@
       "tutorial": "27.10: PyTorch Tutorial, HuggingFace Tutorial",
       "seminar": "23/24.10 Logistics, Publication of Topics",
       "materials": [
-        {"type": "slides", "title": "Lecture Slides", "file": "content/01-_ML4NLU-Basics.pdf"},
-        {"type": "flipped", "title": "Flipped Classroom Slides", "file": "content/01-_ML4NLU-Basics-flippedClassroom.pdf"},
         {"type": "exercise", "title": "Dot Product", "file": "content/01-ML4NLU-Dot-Product.xlsx"},
         {"type": "exercise", "title": "Matrix Multiplication", "file": "content/01-ML4NLU-Matrix-Multiplication.xlsx"}
       ],
@@ -55,8 +53,7 @@
         {"type": "video", "title": "Supervised Learning", "url": "https://youtu.be/UQFlSs3pu-k"},
         {"type": "video", "title": "Formalization Dataset", "url": "https://youtu.be/PK6IEeAWiRg"},
         {"type": "video", "title": "Algorithm: Model Class, Objective, Optimizer", "url": "https://youtu.be/PED1OYvQUX4"},
-        {"type": "video", "title": "Text Classification", "url": "https://youtu.be/y4_g_Ni3bGw"},
-        {"type": "questions", "title": "Flipped Classroom Questions", "items": ["What are differences between reinforcement learning and supervised learning?", "What is a 'loss function'? Name two examples.", "What is 'x' und 'y' in a 'supervised learning dataset'?", "What is a 'bag of words'-Representation?"]}
+        {"type": "video", "title": "Text Classification", "url": "https://youtu.be/y4_g_Ni3bGw"}
       ]
     },
     {
@@ -67,10 +64,7 @@
       "lecture": "30.10",
       "tutorial": "03.11: Intro to task, data set, feature extraction, Optimization",
       "seminar": "30./31.10 Group Building and Assignment of Presentation Topics",
-      "materials": [
-        {"type": "slides", "title": "Lecture Slides", "file": "content/02-_ML4NLU-Learning+Eval.pdf"},
-        {"type": "flipped", "title": "Flipped Classroom Slides", "file": "content/02-_ML4NLU-Learning+Eval-flippedClassroom.pdf"}
-      ],
+      "materials": [],
       "content": []
     },
     {
@@ -93,8 +87,6 @@
       "tutorial": "17.11: MLP Application and Testing",
       "seminar": "13./14.11 ML4NLU-3a/ML4NLU-3b",
       "materials": [
-        {"type": "slides", "title": "Lecture Slides", "file": "content/03-_ML4NLU-NeuralNets.pdf"},
-        {"type": "flipped", "title": "Flipped Classroom Slides", "file": "content/03-_ML4NLU-NeuralNets-flippedClassroom.pdf"},
         {"type": "exercise", "title": "Backpropagation", "file": "content/03-ML4NLU-Backpropgation.xlsx"},
         {"type": "exercise", "title": "Linear Layer", "file": "content/03-ML4NLU-Linear-Layer.xlsx"},
         {"type": "exercise", "title": "Multi-Layer Perceptron", "file": "content/03-ML4NLU-Multi-Layer_Perceptron.xlsx"}
@@ -110,8 +102,6 @@
       "tutorial": "24.11",
       "seminar": "20./21.11 ML4NLU-4a/ML4NLU-4b",
       "materials": [
-        {"type": "slides", "title": "Lecture Slides", "file": "content/04-_ML4NLU-StaticWordVectors.pdf"},
-        {"type": "flipped", "title": "Flipped Classroom Slides", "file": "content/04-_ML4NLU-StaticWordVectors-flippedClassroom.pdf"},
         {"type": "exercise", "title": "Autoencoder", "file": "content/04-_ML4NLU-Autoencoder.xlsx"},
         {"type": "exercise", "title": "Softmax", "file": "content/04-ML4TMW-Softmax.xlsx"},
         {"type": "transcript", "title": "\"Ruck Zuck\" Transcript", "file": "content/04-ML4NLU-Ruck-Zuck_TransScript.pdf"}
@@ -127,8 +117,6 @@
       "tutorial": "01.12",
       "seminar": "27./28.11 ML4NLU-5a/ML4NLU-5b",
       "materials": [
-        {"type": "slides", "title": "Lecture Slides", "file": "content/05-_ML4NLU-LanguageModels.pdf"},
-        {"type": "flipped", "title": "Flipped Classroom Slides", "file": "content/05-_ML4NLU-LanguageModels-flippedClass.pdf"},
         {"type": "exercise", "title": "RNN", "file": "content/05-RNN.xlsx"}
       ],
       "content": []
@@ -142,8 +130,6 @@
       "tutorial": "08.12",
       "seminar": "04./05.12 ML4NLU-6a/ML4NLU-6b",
       "materials": [
-        {"type": "slides", "title": "Lecture Slides", "file": "content/06-_ML4NLU-TransformerEncoding.pdf"},
-        {"type": "flipped", "title": "Flipped Classroom Slides", "file": "content/06-_ML4NLU-TransformerEncoding-flippedClass.pdf"},
         {"type": "exercise", "title": "Self-Attention", "file": "content/06-Self-Attention.xlsx"},
         {"type": "exercise", "title": "Transformer Full Stack", "file": "content/06-Transformer-Full-Stack.xlsx"},
         {"type": "exercise", "title": "Simplified Encoder Block", "file": "content/06-Transformer-simplifiedEncoderBlock.xlsx"}
@@ -158,10 +144,7 @@
       "lecture": "11.12",
       "tutorial": "15.12",
       "seminar": "11./12.12 ML4NLU-7a/ML4NLU-7b",
-      "materials": [
-        {"type": "slides", "title": "Lecture Slides", "file": "content/07-_ML4NLU-TransformerDecoding.pdf"},
-        {"type": "flipped", "title": "Flipped Classroom Slides", "file": "content/07-_ML4NLU-TransformerDecoding-flippedClass.pdf"}
-      ],
+      "materials": [],
       "content": []
     },
     {
@@ -172,10 +155,7 @@
       "lecture": "18.12",
       "tutorial": "05.01 (cancelled)",
       "seminar": "18./19.12 ML4NLU-8a/ML4NLU-8b",
-      "materials": [
-        {"type": "slides", "title": "Lecture Slides", "file": "content/08-_ML4NLU-PreTraining.pdf"},
-        {"type": "flipped", "title": "Flipped Classroom Slides", "file": "content/08-_ML4NLU-PreTraining-flippedClass.pdf"}
-      ],
+      "materials": [],
       "content": []
     },
     {
@@ -186,10 +166,7 @@
       "lecture": "08.01",
       "tutorial": "12.01: Publication of Test Exercise Sheet",
       "seminar": "08./09.01 ML4NLU-9a/ML4NLU-9b",
-      "materials": [
-        {"type": "slides", "title": "Lecture Slides", "file": "content/09-_ML4NLU-PostTraining.pdf"},
-        {"type": "flipped", "title": "Flipped Classroom Slides", "file": "content/09-_ML4NLU-PostTraining-flippedClass.pdf"}
-      ],
+      "materials": [],
       "content": []
     },
     {
@@ -200,10 +177,7 @@
       "lecture": "15.01",
       "tutorial": "19.01: Deadline Challenge",
       "seminar": "15./16.01 ML4NLU-10a/ML4NLU-10b",
-      "materials": [
-        {"type": "slides", "title": "Lecture Slides", "file": "content/10-_ML4NLU-Prompting+Tools.pdf"},
-        {"type": "flipped", "title": "Flipped Classroom Slides", "file": "content/10-_ML4NLU-Prompting+Tools-flippedClass.pdf"}
-      ],
+      "materials": [],
       "content": []
     },
     {
@@ -214,10 +188,7 @@
       "lecture": "22.01",
       "tutorial": "26.01: Test Exercise Sheet",
       "seminar": "22./23.01 ML4NLU-11a/ML4NLU-11b",
-      "materials": [
-        {"type": "slides", "title": "Lecture Slides", "file": "content/11-_ML4NLU-Multi-Lingual-Modal-Agent.pdf"},
-        {"type": "flipped", "title": "Flipped Classroom Slides", "file": "content/11-_ML4NLU-Multi-Lingual-Modal-Agent-flippedClass.pdf"}
-      ],
+      "materials": [],
       "content": []
     },
     {
@@ -239,10 +210,7 @@
       "lecture": "05.02: Written Exam Q&A, AI+Ethics+Safety",
       "tutorial": "09.02",
       "seminar": "05./06.02 ML4NLU-12a/ML4NLU-12b",
-      "materials": [
-        {"type": "slides", "title": "Lecture Slides", "file": "content/12-_ML4NLU-AI+Ethics.pdf"},
-        {"type": "flipped", "title": "Flipped Classroom Slides", "file": "content/12-_ML4NLU-AI+Ethics-flippedClass.pdf"}
-      ],
+      "materials": [],
       "content": []
     },
     {
