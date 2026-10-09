@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const MATERIAL_LABELS = {
+    reading: "Reading",
     exercise: "Exercise",
     reference: "Reference",
     transcript: "Transcript"
@@ -20,26 +21,15 @@ function renderSchedule(schedule) {
     schedule.forEach(weekData => {
         const tr = document.createElement('tr');
 
-        // Week / Date
-        const tdDate = document.createElement('td');
-        tdDate.innerHTML = `<strong>Week ${weekData.week}</strong><br>${weekData.date}`;
+        // Week
+        const tdWeek = document.createElement('td');
+        tdWeek.innerHTML = `<strong>Week ${weekData.week}</strong>`;
 
         // Topic
         const tdTopic = document.createElement('td');
         tdTopic.innerHTML = `<strong>${weekData.topic}</strong>`;
 
-        // Lecture
-        const tdLecture = document.createElement('td');
-        tdLecture.textContent = weekData.lecture;
-
-        // Tutorial / Seminar
-        const tdTutSem = document.createElement('td');
-        let tutSemHtml = '';
-        if (weekData.tutorial) tutSemHtml += `<em>Tut:</em> ${weekData.tutorial}<br>`;
-        if (weekData.seminar) tutSemHtml += `<em>Sem:</em> ${weekData.seminar}`;
-        tdTutSem.innerHTML = tutSemHtml;
-
-        // Materials & Content
+        // Suggested Readings & Materials
         const tdContent = document.createElement('td');
         if (weekData.visible) {
             const hasMaterials = weekData.materials && weekData.materials.length > 0;
@@ -51,7 +41,8 @@ function renderSchedule(schedule) {
                 weekData.materials.forEach(item => {
                     const li = document.createElement('li');
                     const label = MATERIAL_LABELS[item.type] || item.type;
-                    li.innerHTML = `<a href="${item.file}" target="_blank"><span class="material-chip material-chip--${item.type}">${label}</span> ${item.title}</a>`;
+                    const href = item.url || item.file;
+                    li.innerHTML = `<a href="${href}" target="_blank"><span class="material-chip material-chip--${item.type}">${label}</span> ${item.title}</a>`;
                     chipList.appendChild(li);
                 });
                 tdContent.appendChild(chipList);
@@ -81,10 +72,8 @@ function renderSchedule(schedule) {
             tdContent.innerHTML = `<span class="hidden-content">Content will be available closer to the date.</span>`;
         }
 
-        tr.appendChild(tdDate);
+        tr.appendChild(tdWeek);
         tr.appendChild(tdTopic);
-        tr.appendChild(tdLecture);
-        tr.appendChild(tdTutSem);
         tr.appendChild(tdContent);
 
         tbody.appendChild(tr);

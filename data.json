@@ -64,7 +64,12 @@
       "lecture": "30.10",
       "tutorial": "03.11: Intro to task, data set, feature extraction, Optimization",
       "seminar": "30./31.10 Group Building and Assignment of Presentation Topics",
-      "materials": [],
+      "materials": [
+        {"type": "reading", "title": "Challenges and Opportunities in NLP Benchmarking", "url": "https://www.ruder.io/nlp-benchmarking/"},
+        {"type": "reading", "title": "Measuring Massive Multitask Language Understanding (MMLU)", "url": "https://arxiv.org/abs/2009.03300"},
+        {"type": "reading", "title": "Holistic Evaluation of Language Models (HELM)", "url": "https://arxiv.org/abs/2211.09110"},
+        {"type": "reading", "title": "AlpacaEval", "url": "https://tatsu-lab.github.io/alpaca_eval/"}
+      ],
       "content": []
     },
     {
@@ -87,6 +92,10 @@
       "tutorial": "17.11: MLP Application and Testing",
       "seminar": "13./14.11 ML4NLU-3a/ML4NLU-3b",
       "materials": [
+        {"type": "reading", "title": "CS231n Notes on Neural Network Architectures", "url": "http://cs231n.github.io/neural-networks-1/"},
+        {"type": "reading", "title": "CS231n Notes on Backpropagation", "url": "http://cs231n.github.io/optimization-2/"},
+        {"type": "reading", "title": "Learning Representations by Backpropagating Errors", "url": "http://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf"},
+        {"type": "reading", "title": "Yes You Should Understand Backprop", "url": "https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b"},
         {"type": "exercise", "title": "Backpropagation", "file": "content/03-ML4NLU-Backpropgation.xlsx"},
         {"type": "exercise", "title": "Linear Layer", "file": "content/03-ML4NLU-Linear-Layer.xlsx"},
         {"type": "exercise", "title": "Multi-Layer Perceptron", "file": "content/03-ML4NLU-Multi-Layer_Perceptron.xlsx"}
@@ -102,6 +111,10 @@
       "tutorial": "24.11",
       "seminar": "20./21.11 ML4NLU-4a/ML4NLU-4b",
       "materials": [
+        {"type": "reading", "title": "Efficient Estimation of Word Representations in Vector Space (word2vec)", "url": "http://arxiv.org/pdf/1301.3781.pdf"},
+        {"type": "reading", "title": "Distributed Representations of Words and Phrases and their Compositionality", "url": "http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf"},
+        {"type": "reading", "title": "GloVe: Global Vectors for Word Representation", "url": "http://nlp.stanford.edu/pubs/glove.pdf"},
+        {"type": "reading", "title": "Evaluation Methods for Unsupervised Word Embeddings", "url": "http://www.aclweb.org/anthology/D15-1036"},
         {"type": "exercise", "title": "Autoencoder", "file": "content/04-_ML4NLU-Autoencoder.xlsx"},
         {"type": "exercise", "title": "Softmax", "file": "content/04-ML4TMW-Softmax.xlsx"},
         {"type": "transcript", "title": "\"Ruck Zuck\" Transcript", "file": "content/04-ML4NLU-Ruck-Zuck_TransScript.pdf"}
@@ -117,6 +130,8 @@
       "tutorial": "01.12",
       "seminar": "27./28.11 ML4NLU-5a/ML4NLU-5b",
       "materials": [
+        {"type": "reading", "title": "Learning Long-Term Dependencies with Gradient Descent is Difficult", "url": "https://ieeexplore.ieee.org/document/279181"},
+        {"type": "reading", "title": "On the Difficulty of Training Recurrent Neural Networks", "url": "https://arxiv.org/pdf/1211.5063.pdf"},
         {"type": "exercise", "title": "RNN", "file": "content/05-RNN.xlsx"}
       ],
       "content": []
@@ -130,6 +145,10 @@
       "tutorial": "08.12",
       "seminar": "04./05.12 ML4NLU-6a/ML4NLU-6b",
       "materials": [
+        {"type": "reading", "title": "Attention Is All You Need", "url": "https://arxiv.org/abs/1706.03762"},
+        {"type": "reading", "title": "The Illustrated Transformer", "url": "https://jalammar.github.io/illustrated-transformer/"},
+        {"type": "reading", "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "url": "https://arxiv.org/pdf/1810.04805.pdf"},
+        {"type": "reading", "title": "The Illustrated BERT, ELMo, and co.", "url": "http://jalammar.github.io/illustrated-bert/"},
         {"type": "exercise", "title": "Self-Attention", "file": "content/06-Self-Attention.xlsx"},
         {"type": "exercise", "title": "Transformer Full Stack", "file": "content/06-Transformer-Full-Stack.xlsx"},
         {"type": "exercise", "title": "Simplified Encoder Block", "file": "content/06-Transformer-simplifiedEncoderBlock.xlsx"}
@@ -144,7 +163,9 @@
       "lecture": "11.12",
       "tutorial": "15.12",
       "seminar": "11./12.12 ML4NLU-7a/ML4NLU-7b",
-      "materials": [],
+      "materials": [
+        {"type": "reading", "title": "The Llama 3 Herd of Models", "url": "https://arxiv.org/abs/2407.21783"}
+      ],
       "content": []
     },
     {
@@ -155,7 +176,10 @@
       "lecture": "18.12",
       "tutorial": "05.01 (cancelled)",
       "seminar": "18./19.12 ML4NLU-8a/ML4NLU-8b",
-      "materials": [],
+      "materials": [
+        {"type": "reading", "title": "Contextual Word Representations: A Contextual Introduction", "url": "https://arxiv.org/abs/1902.06006.pdf"},
+        {"type": "reading", "title": "Jurafsky and Martin Chapter 10 (Masked Language Models)", "url": "https://web.stanford.edu/~jurafsky/slp3/10.pdf"}
+      ],
       "content": []
     },
     {
@@ -166,7 +190,13 @@
       "lecture": "08.01",
       "tutorial": "12.01: Publication of Test Exercise Sheet",
       "seminar": "08./09.01 ML4NLU-9a/ML4NLU-9b",
-      "materials": [],
+      "materials": [
+        {"type": "reading", "title": "Aligning Language Models to Follow Instructions", "url": "https://openai.com/research/instruction-following"},
+        {"type": "reading", "title": "Scaling Instruction-Finetuned Language Models", "url": "https://arxiv.org/abs/2210.11416"},
+        {"type": "reading", "title": "AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback", "url": "https://arxiv.org/abs/2305.14387"},
+        {"type": "reading", "title": "How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources", "url": "https://arxiv.org/abs/2306.04751"},
+        {"type": "reading", "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model", "url": "https://arxiv.org/abs/2305.18290"}
+      ],
       "content": []
     },
     {
@@ -177,7 +207,13 @@
       "lecture": "15.01",
       "tutorial": "19.01: Deadline Challenge",
       "seminar": "15./16.01 ML4NLU-10a/ML4NLU-10b",
-      "materials": [],
+      "materials": [
+        {"type": "reading", "title": "Language Models are Few-Shot Learners", "url": "https://arxiv.org/abs/2005.14165"},
+        {"type": "reading", "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models", "url": "https://arxiv.org/abs/2201.11903"},
+        {"type": "reading", "title": "ReAct: Synergizing Reasoning and Acting in Language Models", "url": "https://arxiv.org/abs/2210.03629"},
+        {"type": "reading", "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks", "url": "https://arxiv.org/abs/2005.11401"},
+        {"type": "reading", "title": "Toolformer: Language Models Can Teach Themselves to Use Tools", "url": "https://arxiv.org/abs/2302.04761"}
+      ],
       "content": []
     },
     {
@@ -188,7 +224,13 @@
       "lecture": "22.01",
       "tutorial": "26.01: Test Exercise Sheet",
       "seminar": "22./23.01 ML4NLU-11a/ML4NLU-11b",
-      "materials": [],
+      "materials": [
+        {"type": "reading", "title": "Jurafsky & Martin Chapter 2 (Tokenization)", "url": "https://web.stanford.edu/~jurafsky/slp3/2.pdf"},
+        {"type": "reading", "title": "Neural Machine Translation of Rare Words with Subword Units", "url": "https://arxiv.org/pdf/1508.07909"},
+        {"type": "reading", "title": "Unsupervised Cross-lingual Representation Learning at Scale (XLM-R)", "url": "https://aclanthology.org/2020.acl-main.747.pdf"},
+        {"type": "reading", "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models", "url": "https://arxiv.org/abs/2405.09818"},
+        {"type": "reading", "title": "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model", "url": "https://arxiv.org/abs/2408.11039"}
+      ],
       "content": []
     },
     {
@@ -210,7 +252,11 @@
       "lecture": "05.02: Written Exam Q&A, AI+Ethics+Safety",
       "tutorial": "09.02",
       "seminar": "05./06.02 ML4NLU-12a/ML4NLU-12b",
-      "materials": [],
+      "materials": [
+        {"type": "reading", "title": "Because We Have LLMs, We Can and Should Pursue Agentic Interpretability", "url": "https://arxiv.org/abs/2506.12152"},
+        {"type": "reading", "title": "We Can't Understand AI Using our Existing Vocabulary", "url": "https://arxiv.org/abs/2502.07586"},
+        {"type": "reading", "title": "The Pareto Frontier of Human-Centered AI", "url": "https://medium.com/@beenkim/the-pareto-frontier-of-human-centered-ai-54f90ba5872c"}
+      ],
       "content": []
     },
     {

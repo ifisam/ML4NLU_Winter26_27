@@ -179,6 +179,7 @@ a:hover {
 }
 
 .material-chip--exercise { background-color: #6b7a4f; }
+.material-chip--reading  { background-color: #5a6b8c; }
 .material-chip--reference{ background-color: #6f6f6f; }
 .material-chip--transcript{ background-color: #9c8a52; }
 
